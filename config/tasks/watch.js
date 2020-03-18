@@ -32,7 +32,7 @@ export default function () {
         })
       )
       .pipe(autoprefixer({
-          browsers: autoprefixerSettings
+          browserslist: autoprefixerSettings
         })
       )
       .pipe(concat(cssFileName))
