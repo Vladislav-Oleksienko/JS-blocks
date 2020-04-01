@@ -1,0 +1,48 @@
+.generate-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+  .inputs {
+    display: flex;
+    margin-right: 20px;
+    input {
+      display: block;
+      margin-right: 10px;
+      padding: 3px 5px;
+    }
+  }
+
+  .btns {
+    align-self: flex-end;
+
+    button {
+      border: none;
+      padding: 7px 15px;
+      background: #14a58c;
+      border-radius: 7px;
+      margin-right: 10px;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.content {
+  .row-blocks-container {
+    display: flex;
+
+    .single-block {
+      height: 70px;
+      border: 1px solid #14a58c;
+    }
+
+    .bg-color {
+      background-color: #14a58c;
+    }
+  }
+}

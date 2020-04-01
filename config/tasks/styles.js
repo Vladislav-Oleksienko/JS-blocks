@@ -24,7 +24,7 @@ export default function () {
         })
       )
       .pipe(autoprefixer({
-          browsersList: autoprefixerSettings
+          overrideBrowserslist: autoprefixerSettings
         })
       )
       .pipe(concat(cssFileName))

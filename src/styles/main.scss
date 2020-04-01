@@ -14,10 +14,11 @@
 // Layout
 @import "layout/header";
 @import "layout/footer";
-@import "layout/first-section-services";
-@import "layout/second-section-team";
-@import "layout/third-section-skills";
+@import "layout/page";
 
 // Components
 @import "components/buttons";
 @import "components/media";
+
+// Pages
+@import "pages/home";

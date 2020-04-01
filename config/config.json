@@ -5,6 +5,7 @@
       "distDirectory": "./assets",
       "stylesDirectory": "styles",
       "scriptsDirectory": "js",
+      "remoteSiteDir": "remote-site",
       "fontsDirectory": "fonts",
       "imagesDirectory": "img",
       "jsMinFileName": "main.min.js",
